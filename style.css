@@ -23,6 +23,8 @@ body {
     min-height: 100vh;
 }
 
+
+/* for main container  */
 .container {
     display: flex;
     flex-wrap: wrap;
@@ -32,6 +34,7 @@ body {
     border-radius: 15px;
 }
 
+/* sub column's common class  */
 .col {
     max-width: 335px;
     padding: 2rem;
@@ -61,6 +64,7 @@ body {
     color: var(--Very-dark-cyan);
 }
 
+/* illustation's icons  */
 img {
     padding-bottom: 2rem;
 }
@@ -76,6 +80,7 @@ p {
     color: var(--Transparent-white);
 }
 
+/* buttons  */
 input {
     padding: 1em 2em;
     border-radius: 25px;
